@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #222;
+    background-color: #333;
     min-height: 100vh;
     margin: 0;
 }
@@ -50,8 +50,9 @@ body {
 }
 
 .nav-items {
-    margin: 1rem;
+    margin: 1.5rem;
     list-style-type: none;
+    font-weight: bold;
 }
 
 .nav-items-link {
@@ -59,7 +60,8 @@ body {
 }
 
 .nav-items-link:hover {
-    color: #3b82f6;
+    color: #39e1e3;
+    font-weight: bold;
 }
 
 @media (max-width:873px) {
@@ -180,7 +182,7 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid: 1.25rem;
     align-items: center;
-    border-left: 1px solid #333;
+    border-left: 1px solid #c7b7b7;
 }
 
 .resume-duration-container {
@@ -233,6 +235,7 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
     margin-top: 3rem;
+    padding-top: 50px;
 }
 
 .certification-list {
@@ -326,6 +329,7 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1rem;
+    
 }
 
 .skills-progress-container {
